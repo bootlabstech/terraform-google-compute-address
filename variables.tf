@@ -14,10 +14,11 @@ variable "purpose" {
   description = "purpose"
   type        = string
 }
+/*
 variable "subnet_mask" {
   description = "subnet_mask"
   type        = string
-}
+}*/
 variable "network" {
   description = "network"
   type        = string
