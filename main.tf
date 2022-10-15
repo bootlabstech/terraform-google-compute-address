@@ -7,4 +7,5 @@ resource "google_compute_address" "ipaddress" {
   address       = var.address
   prefix_length = var.subnet_mask
   network       = var.network
+  subnetwork    = var.subnetwork
 }

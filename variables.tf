@@ -22,6 +22,10 @@ variable "network" {
   description = "network"
   type        = string
 }
+variable "subnetwork" {
+  description = "subnetwork"
+  type        = string
+}
 variable "address" {
   description = "address"
   type        = string
