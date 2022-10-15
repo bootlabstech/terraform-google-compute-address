@@ -1,3 +1,7 @@
+variable "project_id" {
+  description = "project_id"
+  type        = string
+}
 variable "address_name" {
   description = "address_name"
   type        = string
