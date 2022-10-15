@@ -1,6 +1,6 @@
 resource "google_compute_address" "ipaddress" {
   project       = var.project_id
-_ name          = var.address_name
+  name          = var.address_name
   address_type  = var.address_type
   purpose       = var.purpose
   address       = var.address
